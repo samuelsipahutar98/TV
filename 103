@@ -934,9 +934,9 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IDXChannelHD/mediampd/IDXChannelH
 #EXTINF:-1 group-title="NASIONAL"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Antara_logo.png/512px-Antara_logo.png",ANTARA TV
 https://cdn10jtedge.indihometv.com/atm/DASH/antara/manifest.mpd
 
-#EXTINF:-1 group-title="NASIONAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/BTV_logo.png/512px-BTV_logo.png",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-BERITASATU/playlist.m3u8
+#EXTINF:-1 group-title="NASIONAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_btv.png",BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://btv.secureswiftcontent.com/han/btv/btv10005r/srtoutput/manifest.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1399,8 +1399,7 @@ https://ratuvidio.adptv.workers.dev/index.mpd?id=19404&type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://ratuvidio.adptv.workers.dev/index.mpd?id=9182&type=drm
 https://ratuvidio.adptv.workers.dev/index.mpd?id=9182&type=dash
-#https://pidio.becek.workers.dev/9182.mpd
-#https://aspaltvpasti.top/11111/9182.mpd
+
 
 #EXTINF:-1 tvg-id="Champions.TV.6.id" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Champions_TV_5.png" group-title="OLAHRAGA INTERNASIONAL",CHAMPIONS TV 6
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
@@ -1409,8 +1408,7 @@ https://ratuvidio.adptv.workers.dev/index.mpd?id=9182&type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://ratuvidio.adptv.workers.dev/index.mpd?id=9183&type=drm
 https://ratuvidio.adptv.workers.dev/index.mpd?id=9183&type=dash
-#https://pidio.becek.workers.dev/9183.mpd
-#https://aspaltvpasti.top/11111/9183.mpd
+
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1760,12 +1758,14 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 https://cdn08jtedge.indihometv.com/dassdvr/134/cinemaworld/manifest.mpd
 
 
-#EXTINF:-1 group-title="MUSIK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/musik-indonesia-id.png",MUSIK INDONESIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://103.58.160.157:8278/720-MUSIKINDONESIA/playlist.m3u8
+#EXTINF:-1 group-title="MUSIK" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_musikindonesia.png",Musik Indonesia
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e092c5a72f3444419756b6a66c5e64da:8193b7dbb3e1c62ddd30546d3aaf9d40
+https://cdn08jtedge.indihometv.com/dassdvr/134/musikindo/manifest_wuseetv.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="KILAS 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Television_icon.png/512px-Television_icon.png" group-title="NASIONAL",KILAS 7
-http://iptv.kilas7.com:80/kaukia/asdfrewq/16
+#EXTINF:-1 group-title="MUSIK" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_prambors.png",Prambors
+https://cdn10jtedge.indihometv.com/atm/DASH/pramborstv/pramborstv-avc1_2500000=7-3277707030000000.mpd
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Travel_Channel_logo.png/512px-Travel_Channel_logo.png" group-title="DOKUMENTER",TRAVEL CHANNEL
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
